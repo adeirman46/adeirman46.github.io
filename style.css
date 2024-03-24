@@ -1,0 +1,26 @@
+/* style my html so make it dark and glow in the dark, set the picture and web so it responsive */
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add a glow effect on hover */
+a:hover, button:hover {
+    text-shadow: 0 0 10px #33ff33, 0 0 20px #33ff33, 0 0 30px #33ff33, 0 0 40px #33ff33;
+}
