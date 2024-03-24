@@ -1,1 +1,0 @@
-# adeirman46.github.io
